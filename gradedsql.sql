@@ -1,0 +1,12 @@
+use assignment1;
+
+CREATE TABLE EMPLOYEE (
+   id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+   emp_name  VARCHAR(30) NOT NULL,
+   emp_address VARCHAR(30) NOT NULL,
+   phone_number LONG NOT NULL,
+   emp_salary DOUBLE NOT NULL
+);
+
+SELECT	* FROM EMPLOYEE;
+
